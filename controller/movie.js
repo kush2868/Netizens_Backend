@@ -26,9 +26,7 @@ exports.GetById = async (req, res) => {
     } else {
         res.json({
             status: 201,
-            data: {
-                movie,
-            },
+            data: movie
         });
     }
 };
